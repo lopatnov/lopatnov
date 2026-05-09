@@ -28,21 +28,52 @@ Currently exploring: self-hosted apps, AI-augmented tooling, and Rust.
 
 ## Open source
 
-### Apps I'm building
+### [pressmark](https://github.com/lopatnov/pressmark) — Self-hosted RSS reader
 
-**[pressmark](https://github.com/lopatnov/pressmark)** — Self-hosted RSS reader with a shared community feed. Built with .NET 10 and Angular.
+A full-stack RSS aggregator where personal reading meets a public community feed. Users subscribe to any RSS source, track read/unread state, and can upvote articles — top-liked items surface on a moderated community page visible to everyone. Includes daily email digests and an admin panel.
 
-**[mise](https://github.com/lopatnov/mise)** — Recipe manager you fully own. Multi-user, photo uploads, self-hosted.
+**Stack:** .NET 10 · ASP.NET Core · gRPC-web · React 19 · TailwindCSS v4 · shadcn/ui · Zustand · MSSQL · EF Core · Docker · nginx  
+**Supports 18 locales** · JWT auth · GitHub Actions CI · deployable via Docker Compose or GHCR images
 
-**[translate](https://github.com/lopatnov/translate)** — Local-first translation API: Whisper STT → NLLB/M2M100, served over gRPC.
+---
+
+### [mise](https://github.com/lopatnov/mise) — Self-hosted recipe manager
+
+A self-hosted recipe platform you fully own. Store recipes with ingredients, step-by-step instructions, and per-step photos. Ingredient amounts scale automatically when you adjust servings. Import recipes from any URL, browse by tags and categories, bookmark favorites, and share publicly. Supports multiple users with role management and invite links.
+
+**Stack:** Node.js 24 · NestJS 11 · MongoDB 8 · React 19 · Vite · React Query · Zustand · Docker · nginx  
+**Supports 33 languages** · dark/light theme · print-optimized layouts · GPLv3
+
+---
+
+### [translate](https://github.com/lopatnov/translate) — Local-first translation API
+
+A self-hosted gRPC service for text translation, language detection, and speech-to-text — all running locally with no cloud dependencies. Multiple translation models can be configured by name and selected per request.
+
+**Translation:** M2M-100, NLLB-200 via ONNX Runtime  
+**Speech-to-Text:** Whisper.net  
+**Language detection:** FastText LID-176, GlotLID  
+**Stack:** .NET 10 · gRPC · ONNX Runtime · Docker · Apache 2.0
+
+---
 
 ### npm packages
 
-**[rollup-plugin-uglify](https://github.com/lopatnov/rollup-plugin-uglify)** `190K+ ↓` — Minify Rollup bundles with Terser  
-**[express-reverse-proxy](https://github.com/lopatnov/express-reverse-proxy)** `2K+ ↓` — Static file server + API reverse proxy in one CLI command  
-**[browser-tab-ipc](https://github.com/lopatnov/browser-tab-ipc)** — Cross-tab messaging via BroadcastChannel / localStorage  
-**[worker-from-string](https://github.com/lopatnov/worker-from-string)** — Create Web Workers from inline strings or functions  
-**[jsToString](https://github.com/lopatnov/jsToString)** — Serialize any JavaScript value back to its source representation  
+**[rollup-plugin-uglify](https://github.com/lopatnov/rollup-plugin-uglify)** `190K+ ↓`  
+Rollup plugin for minifying JavaScript bundles with Terser. Zero-config for basic use, fully configurable for compression, mangling, source maps, and ES target version.
+
+**[express-reverse-proxy](https://github.com/lopatnov/express-reverse-proxy)** `2K+ ↓`  
+CLI tool that serves static frontend files and proxies API requests in one command. HTTPS, rate limiting, hot reload, round-robin load balancing, PM2 cluster mode, and an interactive `--init` config generator.
+
+**[browser-tab-ipc](https://github.com/lopatnov/browser-tab-ipc)**  
+Cross-tab messaging with automatic transport selection: BroadcastChannel → SharedWorker → SessionStorage fallback. EventEmitter-based API, fully typed, ESM/CJS/UMD.
+
+**[worker-from-string](https://github.com/lopatnov/worker-from-string)**  
+Create Web Workers from inline strings or functions at runtime — no separate script files needed.
+
+**[jsToString](https://github.com/lopatnov/jsToString)**  
+Serialize any JavaScript value — including functions, circular references, Maps, Sets, TypedArrays, and generators — back to evaluable source code.
+
 **[make-iterable](https://github.com/lopatnov/make-iterable)** · **[join](https://github.com/lopatnov/join)** · **[callable](https://github.com/lopatnov/callable)** · **[get-internal-type](https://github.com/lopatnov/get-internal-type)** · **[namespace](https://github.com/lopatnov/namespace)**
 
 ---
