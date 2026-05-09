@@ -1,73 +1,50 @@
 # Oleksandr Lopatnov
 
-**Senior Full Stack Software Engineer** — .NET · Angular · TypeScript · Node.js
+Senior Full Stack Engineer from Ukraine, working remotely with teams across the US and Australia.
+I build enterprise software with **.NET** and **Angular** — and ship open source tools on the side.
+**190K+ npm downloads** so far. Microsoft Certified Professional.
 
-11+ years building enterprise web applications for international clients across fintech, television, real estate, and document management. Open source contributor with **190K+ npm package downloads**. Microsoft Certified Professional.
+Currently exploring: self-hosted apps, AI-augmented tooling, and Rust.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lopatnov-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lopatnov/)
-[![Email](https://img.shields.io/badge/Email-lopatniov@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:lopatniov@gmail.com)
-[![Location](https://img.shields.io/badge/Ukraine-Remote-4CAF50?style=flat)](#)
+[![Email](https://img.shields.io/badge/lopatniov@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:lopatniov@gmail.com)
 
 ---
 
-## Tech Stack
+## What I work with
 
-**Back-End**  
-`.NET 8+` · `ASP.NET Core` · `EF Core` · `SignalR` · `Blazor` · `gRPC` · `Node.js` · `NestJS` · `Fastify`
-
-**Front-End**  
-`Angular` · `NgRx` · `RxJS` · `React` · `TypeScript` · `TailwindCSS` · `Material UI`
-
-**Cloud & DevOps**  
-`Azure` · `Docker` · `GitHub Actions` · `Azure DevOps` · `nginx` · `CI/CD`
-
-**Databases**  
-`PostgreSQL` · `MSSQL` · `Redis` · `MongoDB` · `SQLite`
-
-**AI & ML**  
-`Claude` · `Anthropic API` · `MCP` · `ONNX (NLLB · M2M100)` · `FastText` · `Whisper` · `LibreTranslate`
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
 ---
 
-## Open Source
+## Open source
 
-### Applications
+### Apps I'm building
 
-| Project | Stack | Description |
-|---|---|---|
-| [pressmark](https://github.com/lopatnov/pressmark) | .NET 10 · Angular | Self-hosted RSS aggregator with a public community feed |
-| [mise](https://github.com/lopatnov/mise) | TypeScript | Self-hosted recipe manager — multi-user, photo uploads, full ownership |
-| [translate](https://github.com/lopatnov/translate) | C# · gRPC | Speech and text translation service: Whisper STT → NLLB/M2M100 |
+**[pressmark](https://github.com/lopatnov/pressmark)** — Self-hosted RSS reader with a shared community feed. Built with .NET 10 and Angular.
 
-### npm Packages
+**[mise](https://github.com/lopatnov/mise)** — Recipe manager you fully own. Multi-user, photo uploads, self-hosted.
 
-| Package | Description |
-|---|---|
-| [rollup-plugin-uglify](https://github.com/lopatnov/rollup-plugin-uglify) | Rollup plugin for minifying JavaScript bundles with Terser — **190K+ downloads** |
-| [express-reverse-proxy](https://github.com/lopatnov/express-reverse-proxy) | Lightweight CLI to serve static files and reverse-proxy API requests |
-| [browser-tab-ipc](https://github.com/lopatnov/browser-tab-ipc) | Cross-tab messaging via BroadcastChannel / localStorage |
-| [worker-from-string](https://github.com/lopatnov/worker-from-string) | Create Web Workers from inline strings or functions |
-| [jsToString](https://github.com/lopatnov/jsToString) | Serialize any JavaScript value back to its source representation |
-| [make-iterable](https://github.com/lopatnov/make-iterable) | Make any object or function iterable with a custom iterator |
-| [join](https://github.com/lopatnov/join) | SQL-style join operations (inner, left, right, full) for JS arrays |
-| [callable](https://github.com/lopatnov/callable) | Abstract base class for creating callable object instances |
-| [get-internal-type](https://github.com/lopatnov/get-internal-type) | Detect the internal `[[Class]]` of any JavaScript value |
-| [namespace](https://github.com/lopatnov/namespace) | Modular namespace ecosystem for structured JavaScript applications |
+**[translate](https://github.com/lopatnov/translate)** — Local-first translation API: Whisper STT → NLLB/M2M100, served over gRPC.
+
+### npm packages
+
+**[rollup-plugin-uglify](https://github.com/lopatnov/rollup-plugin-uglify)** `190K+ ↓` — Minify Rollup bundles with Terser  
+**[express-reverse-proxy](https://github.com/lopatnov/express-reverse-proxy)** `2K+ ↓` — Static file server + API reverse proxy in one CLI command  
+**[browser-tab-ipc](https://github.com/lopatnov/browser-tab-ipc)** — Cross-tab messaging via BroadcastChannel / localStorage  
+**[worker-from-string](https://github.com/lopatnov/worker-from-string)** — Create Web Workers from inline strings or functions  
+**[jsToString](https://github.com/lopatnov/jsToString)** — Serialize any JavaScript value back to its source representation  
+**[make-iterable](https://github.com/lopatnov/make-iterable)** · **[join](https://github.com/lopatnov/join)** · **[callable](https://github.com/lopatnov/callable)** · **[get-internal-type](https://github.com/lopatnov/get-internal-type)** · **[namespace](https://github.com/lopatnov/namespace)**
 
 ---
 
-## Experience
-
-| Period | Role | Company |
-|---|---|---|
-| 2024 – 2025 | Senior UI Engineer | Efficiency Leaders, Australia (Remote) |
-| 2020 – 2024 | Full Stack Engineer | GlobalLogic, USA Client (Remote) |
-| 2020 | Front-End Engineer | Luxoft, Kyiv |
-| 2018 – 2020 | Full Stack Engineer | Brainbean Apps, Kyiv |
-| 2016 – 2018 | Full Stack Engineer | Luxoft / Skelia / Precise / Besprime |
-| 2013 – 2016 | Full Stack Engineer → Team Lead | GlobalLogic, Mykolaiv |
-
----
-
-> *"He was able to handle the implementation entirely from the UI layer down to the filesystem extensions."*  
-> — Mostafa Hosseini, Direct Manager at Kwilt Inc.
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lopatnov&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=default)](https://github.com/lopatnov)
