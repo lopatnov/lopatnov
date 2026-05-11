@@ -255,11 +255,11 @@ MCP server that exposes the [Lopatnov.Translate](https://github.com/lopatnov/tra
 
 ### Planned / Work in Progress
 
-| Project | Description | Stack |
-|---|---|---|
+| Project                                                            | Description                               | Stack                |
+| ------------------------------------------------------------------ | ----------------------------------------- | -------------------- |
 | [translate-angular](https://github.com/lopatnov/translate-angular) | Angular client for the Translate gRPC API | Angular · TypeScript |
-| [conduit](https://github.com/lopatnov/conduit) | Experimental project | Rust |
-| [tereveni](https://github.com/lopatnov/tereveni) | Experimental project | .NET |
+| [conduit](https://github.com/lopatnov/conduit)                     | Experimental project                      | Rust                 |
+| [tereveni](https://github.com/lopatnov/tereveni)                   | Experimental project                      | .NET                 |
 
 ---
 
