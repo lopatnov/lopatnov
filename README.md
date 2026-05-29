@@ -65,16 +65,31 @@ A self-hosted recipe platform you fully own. Create recipes with ingredients, st
 
 #### [translate](https://github.com/lopatnov/translate) — Local-first translation and speech API
 
-A self-hosted gRPC service for text translation, language detection, and speech-to-text — all models run locally with no cloud dependencies. Multiple translation models can be configured by name and selected per request. Translation: M2M-100, NLLB-200 · Speech-to-Text: Whisper.net · Language detection: FastText LID-176, GlotLID.
+A self-hosted gRPC service for end-to-end speech and text translation — all models run locally with no cloud dependencies. Full cascade pipeline: speech-to-text (Whisper) → text translation (M2M-100, NLLB-200) → text-to-speech (Piper TTS). GPU acceleration via DirectML, CUDA, and Vulkan. Multiple translation models configurable by name, selected per request. Supports model warm-up, TTL eviction, and cross-instance gRPC forwarding (Redirect model type).
 
 ![.NET](https://img.shields.io/badge/.NET_10-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat)
 ![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat&logo=onnx&logoColor=white)
 ![Whisper.net](https://img.shields.io/badge/Whisper.net-412991?style=flat)
+![Piper TTS](https://img.shields.io/badge/Piper_TTS-22C55E?style=flat)
 ![FastText](https://img.shields.io/badge/FastText-0082FB?style=flat)
-![LibreTranslate](https://img.shields.io/badge/LibreTranslate-3CA4E8?style=flat)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
+
+---
+
+#### [translate-angular](https://github.com/lopatnov/translate-angular) — Web testing studio for the Translate gRPC service
+
+A standalone Angular 21 web application that exercises every endpoint of the Lopatnov.Translate gRPC service through a clean browser UI — no `grpcurl` commands needed. Seven pages: text translation with auto-detect, language detection, JSON localization file translation, speech-to-text with browser microphone recording, text-to-speech, speech-to-speech end-to-end, and live streaming translation with Voice Activity Detection. Distributable as a Docker image or npm package.
+
+![Angular](https://img.shields.io/badge/Angular_21-DD0031?style=flat&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Express](https://img.shields.io/badge/Express_5-000000?style=flat&logo=express&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
+[![downloads](https://img.shields.io/npm/dt/@lopatnov/translate-angular?style=flat&label=downloads)](https://www.npmjs.com/package/@lopatnov/translate-angular)
 
 ---
 
@@ -277,10 +292,9 @@ MCP server that exposes the [Lopatnov.Translate](https://github.com/lopatnov/tra
 
 ### Planned / Work in Progress
 
-| Project                                                            | Description                               | Stack                |
-| ------------------------------------------------------------------ | ----------------------------------------- | -------------------- |
-| [translate-angular](https://github.com/lopatnov/translate-angular) | Angular client for the Translate gRPC API | Angular · TypeScript |
-| [tereveni](https://github.com/lopatnov/tereveni)                   | Experimental project                      | .NET                 |
+| Project                                            | Description          | Stack |
+| -------------------------------------------------- | -------------------- | ----- |
+| [tereveni](https://github.com/lopatnov/tereveni)   | Experimental project | .NET  |
 
 ---
 
