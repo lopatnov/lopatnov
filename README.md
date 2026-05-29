@@ -93,6 +93,19 @@ A standalone Angular 21 web application that exercises every endpoint of the Lop
 
 ---
 
+#### [translate-mcp](https://github.com/lopatnov/translate-mcp) — MCP server for the Translate gRPC service
+
+MCP server that exposes the [Lopatnov.Translate](https://github.com/lopatnov/translate) service as AI tools — text translation, language detection, speech-to-text, text-to-speech, and speech-to-speech via gRPC, all running locally without cloud dependencies. Integrates with Claude, Claude Code, and any MCP-compatible host.
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat)
+![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
+[![downloads](https://img.shields.io/npm/dt/@lopatnov/translate-mcp?style=flat&label=downloads)](https://www.npmjs.com/package/@lopatnov/translate-mcp)
+
+---
+
 #### [pdf-concatenator](https://github.com/lopatnov/pdf-concatenator) — PDF merge tool for Windows
 
 A Windows desktop utility for merging multiple PDF files into a single document. Manage a numbered file list, reorder and remove entries, set the output path and filename, then generate the merged PDF in one click.
@@ -274,19 +287,6 @@ Modular namespace ecosystem for structured JavaScript applications. Dot-path nav
 ![Biome](https://img.shields.io/badge/Biome-60A5FA?style=flat&logo=biome&logoColor=white)
 ![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
 [![downloads](https://img.shields.io/npm/dt/@lopatnov/namespace?style=flat&label=downloads)](https://www.npmjs.com/package/@lopatnov/namespace)
-
----
-
-#### [translate-mcp](https://github.com/lopatnov/translate-mcp)
-
-MCP server that exposes the [Lopatnov.Translate](https://github.com/lopatnov/translate) service as AI tools — speech-to-text, text translation, and language detection via gRPC, all running locally without cloud dependencies.
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
-![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat)
-![Apache 2.0](https://img.shields.io/badge/Apache_2.0-D22128?style=flat)
-[![downloads](https://img.shields.io/npm/dt/@lopatnov/translate-mcp?style=flat&label=downloads)](https://www.npmjs.com/package/@lopatnov/translate-mcp)
 
 ---
 
