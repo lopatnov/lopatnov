@@ -291,11 +291,44 @@ Modular namespace ecosystem for structured JavaScript applications. Dot-path nav
 
 ---
 
+### Personal Tools
+
+This projects in my profile are simple personal tools created primarily for my own workflows and safe storage. They are shared publicly "as is" in case anyone finds the concepts or code snippets interesting or useful. Please don't expect comprehensive documentation, active maintenance, or English localization—these are built by me, for me.
+
+#### [linux-scripts](https://github.com/lopatnov/linux-scripts)
+
+Auxiliary repository for Linux scripts
+
+![Windows](https://shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white)
+![WSL](https://shields.io/badge/WSL-494949?style=flat&logo=linux&logoColor=white)
+![Ubuntu](https://shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
+![Debian](https://shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white)
+
+#### [doc2html](https://github.com/lopatnov/doc2html)
+
+Python script to convert a document (PDF, EPUB, XPS, MOBI, FB2, CBZ, images, ... - anything PyMuPDF can open) into readable UTF-8 HTML, Markdown, or plain text, extracting embedded images along the way.
+
+![Conda](https://shields.io/badge/Conda-Environment-44A833?style=flat&logo=anaconda&logoColor=white)
+![Python](https://shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
+![RAG](https://shields.io/badge/RAG-🧠_AI-FF6F61?style=flat)
+![PyMuPDF](https://shields.io/badge/PyMuPDF-1.24+-FF5722?style=flat&logo=adobe&logoColor=white)
+![Transformers](https://shields.io/badge/Hugging_Face-Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Pillow](https://img.shields.io/badge/Pillow-12.3+-2CCCE4?style=flat&logo=python&logoColor=white)
+![PyTorch](https://shields.io/badge/PyTorch-2.13+-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![NumPy](https://shields.io/badge/NumPy-Data_Math-013243?style=flat&logo=numpy&logoColor=white)
+![EasyOCR](https://shields.io/badge/EasyOCR-1.7-🔍_OCR-blue?style=flat)
+![BLIP](https://shields.io/badge/BLIP-Image_Captioning-8E44AD?style=flat)
+![Bionic](https://shields.io/badge/LM_Studio-Bionic-4CAF50?style=flat)
+![LFM 2.5](https://shields.io/badge/LFM_2.5-LLM-8E44AD?style=flat&logo=openai&logoColor=white)
+![PowerShell](https://shields.io/badge/PowerShell-Scripts-5391FE?style=flat&logo=powershell&logoColor=white)
+
+---
+
 ### Planned / Work in Progress
 
-| Project                                            | Description          | Stack |
-| -------------------------------------------------- | -------------------- | ----- |
-| [tereveni](https://github.com/lopatnov/tereveni)   | Experimental project | .NET  |
+| Project                                          | Description          | Stack |
+| ------------------------------------------------ | -------------------- | ----- |
+| [tereveni](https://github.com/lopatnov/tereveni) | Experimental project | .NET  |
 
 ---
 
