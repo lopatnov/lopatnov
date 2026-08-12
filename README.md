@@ -316,7 +316,7 @@ Python script to convert a document (PDF, EPUB, XPS, MOBI, FB2, CBZ, images, ...
 ![Pillow](https://img.shields.io/badge/Pillow-12.3+-2CCCE4?style=flat&logo=python&logoColor=white)
 ![PyTorch](https://shields.io/badge/PyTorch-2.13+-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![NumPy](https://shields.io/badge/NumPy-Data_Math-013243?style=flat&logo=numpy&logoColor=white)
-![EasyOCR](https://shields.io/badge/EasyOCR-1.7-🔍_OCR-blue?style=flat)
+![EasyOCR](https://img.shields.io/badge/EasyOCR-1.7-blue?style=flat)
 ![BLIP](https://shields.io/badge/BLIP-Image_Captioning-8E44AD?style=flat)
 ![Bionic](https://shields.io/badge/LM_Studio-Bionic-4CAF50?style=flat)
 ![LFM 2.5](https://shields.io/badge/LFM_2.5-LLM-8E44AD?style=flat&logo=openai&logoColor=white)
@@ -345,5 +345,10 @@ A heartfelt thank-you to the researchers and engineers behind these tools — th
 ![Snyk](https://img.shields.io/badge/Snyk-4C4A73?style=flat&logo=snyk&logoColor=white)
 ![CodeQL](https://img.shields.io/badge/CodeQL-2088FF?style=flat&logo=github&logoColor=white)
 ![Codacy](https://img.shields.io/badge/Codacy-222F29?style=flat&logo=codacy&logoColor=white)
+![Qodo](https://img.shields.io/badge/Qodo-003366?style=flat)
+![Gitar](https://img.shields.io/badge/Gitar-1A1A2E?style=flat)
+![Gordon](https://img.shields.io/badge/Gordon_AI-4A90E2?style=flat)
+![Socket](https://img.shields.io/badge/Socket-Supply_Chain_Security-4A2D8B?style=flat)
+![Trivy](https://shields.io/badge/Trivy-Security_Scanner-3F51B5?style=flat&logo=aquasecurity&logoColor=white)
 
 ---
